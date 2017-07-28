@@ -1,14 +1,17 @@
 /* add your CSS here */
-.interesting{
+.interesting {
     font-style: italic;
 }
 
-.information{
+.information {
     margin: 20px;
     padding: 1em;
+    width: 250px;
+    border-style: solid;
+    border-color: #b3b3cc;
 }
 
-.label{
+.label {
     font-weight: bold;
 }
 
@@ -16,7 +19,24 @@ ul {
   list-style-type: none;
 }
 
-h3{
-    margin: 20px;
+h1 {
+    margin: 10px;
     padding: 1em;
+}
+
+div.border {
+    /*border-width : 30px;*/
+    width: 330px;
+    border-color: #b3b3cc;
+    border-style: solid;
+    -webkit-box-shadow: 4px 6px 45px 2px rgba(0,0,0,0.57);
+    -moz-box-shadow: 4px 6px 45px 2px rgba(0,0,0,0.57);
+    box-shadow: 4px 6px 45px 2px rgba(0,0,0,0.57);
+}
+
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
