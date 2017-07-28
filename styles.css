@@ -1,1 +1,22 @@
 /* add your CSS here */
+.interesting{
+    font-style: italic;
+}
+
+.information{
+    margin: 20px;
+    padding: 1em;
+}
+
+.label{
+    font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h3{
+    margin: 20px;
+    padding: 1em;
+}
